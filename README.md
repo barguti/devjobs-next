@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 DevJobs - Platform for Developers
 
-## Getting Started
+## 📝 Project Description
+This repository contains the development of a job search platform specifically designed for software developers. The project is being built as a **learning laboratory** to master modern web development technologies.
 
-First, run the development server:
+The main goal is to build a professional, scalable, and high-performance application while exploring the latest features of the React ecosystem.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🧪 Learning Goals
+This project is under active study. I am focused on learning:
+* **Next.js 15/16 (App Router):** Server Components, Server Actions, and optimized routing.
+* **React 19:** Using new hooks like `use` and performance improvements.
+* **TypeScript:** Strong typing for robust and error-free code.
+* **Tailwind CSS:** Professional styling, dark mode, and responsive design.
+* **pnpm:** Efficient package management.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📝 Descripción del Proyecto
+Este repositorio contiene el desarrollo de una plataforma de búsqueda de empleo diseñada específicamente para desarrolladores de software. El proyecto se está construyendo como un **laboratorio de aprendizaje** para dominar las tecnologías modernas de desarrollo web.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+El objetivo principal es construir una aplicación profesional, escalable y de alto rendimiento mientras se exploran las últimas características del ecosistema de React.
 
-## Learn More
+### 🧪 Objetivos de Aprendizaje
+Este proyecto se encuentra bajo estudio activo. Estoy enfocado en aprender:
+* **Next.js 15/16 (App Router):** Server Components, Server Actions y enrutamiento optimizado.
+* **React 19:** Uso de nuevos hooks como `use` y mejoras de rendimiento.
+* **TypeScript:** Tipado fuerte para un código robusto y libre de errores.
+* **Tailwind CSS:** Estilizado profesional, modo oscuro y diseño responsivo.
+* **pnpm:** Gestión eficiente de paquetes.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Stack
+- **Framework:** Next.js (App Router)
+- **Library:** React 19
+- **Styling:** Tailwind CSS
+- **Language:** TypeScript
+- **Package Manager:** pnpm
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 How to run / Cómo ejecutar
+1. Clone the repo / Clona el repo: `git clone https://github.com/tu-usuario/devjobs-next.git`
+2. Install dependencies / Instala dependencias: `pnpm install`
+3. Run dev server / Corre el servidor: `pnpm dev`
