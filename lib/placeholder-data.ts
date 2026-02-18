@@ -82,7 +82,7 @@ export const JOBS = [
     {
         id: "9",
         logo: "/logos/neo.svg",
-        logoBg: "#111827",
+        logoBg: "#901bcf",
         postedAt: "2w ago",
         contractType: "Full Time",
         position: "Fullstack Developer",
@@ -142,7 +142,7 @@ export const JOBS = [
     {
         id: "15",
         logo: "/logos/logic.svg",
-        logoBg: "#0F172A",
+        logoBg: "#ffcd64",
         postedAt: "1mo ago",
         contractType: "Contract",
         position: "System Architect",
@@ -162,7 +162,7 @@ export const JOBS = [
     {
         id: "17",
         logo: "/logos/core.svg",
-        logoBg: "#2563EB",
+        logoBg: "#273759",
         postedAt: "2mo ago",
         contractType: "Full Time",
         position: "Java Developer",
