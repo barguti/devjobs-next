@@ -9,7 +9,7 @@ export default function SearchBar() {
                     <span className="text-brand-blue text-xl">🔍</span>
                     <input
                         type="text"
-                        placeholder="Filter by title, companies..."
+                        placeholder="Filter by title, companies"
                         className="bg-transparent border-none outline-none text-white w-full placeholder:text-[#9DAEC2]"
                     />
                 </div>
@@ -19,7 +19,7 @@ export default function SearchBar() {
                     <span className="text-brand-blue text-xl">📍</span>
                     <input
                         type="text"
-                        placeholder="Filter by location..."
+                        placeholder="Filter by location"
                         className="bg-transparent border-none outline-none text-white w-full placeholder:text-[#9DAEC2]"
                     />
                 </div>
