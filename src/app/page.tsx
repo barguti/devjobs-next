@@ -1,6 +1,6 @@
-import SearchBar from "@/src/components/jobs/SearchBar";
-import JobCard from "@/src/components/jobs/JobCard";
-import { JOBS } from "@/src/lib/placeholder-data";
+import SearchBar from "../components/SearchBar";
+import JobCard from "../components/JobCard";
+import { JOBS } from "../lib/placeholder-data";
 
 export default function Home() {
     return (

@@ -1,5 +1,8 @@
+import Link from "next/link";
+
 // 1. Definimos la "forma" de los datos (Interface)
 interface JobProps {
+    id: string;
     logo: string;
     logoBg: string;
     postedAt: string;
@@ -10,6 +13,7 @@ interface JobProps {
 }
 
 export default function JobCard({
+    id,
     logo,
     logoBg,
     postedAt,
@@ -40,9 +44,11 @@ export default function JobCard({
                 <span>{contractType}</span>
             </div>
 
-            <h3 className="text-white text-xl font-bold mb-2 hover:text-[#9DAEC2] cursor-pointer transition-colors">
-                {position}
-            </h3>
+            <Link href={`/jobs/${id}`}>
+                <h3 className="text-white text-xl font-bold mb-2 hover:text-[#9DAEC2] cursor-pointer transition-colors">
+                    {position}
+                </h3>
+            </Link>
 
             <p className="text-[#9DAEC2] mb-6">{company}</p>
 

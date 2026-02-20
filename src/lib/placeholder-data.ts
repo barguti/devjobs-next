@@ -1,6 +1,8 @@
+import { randomUUID } from "crypto";
+
 export const JOBS = [
     {
-        id: "1",
+        id: randomUUID(),
         logo: "/logos/scoot.svg", // imágenes en public/logos/
         logoBg: "#E99210",
         postedAt: "5h ago",
@@ -10,7 +12,7 @@ export const JOBS = [
         location: "United Kingdom",
     },
     {
-        id: "2",
+        id: randomUUID(),
         logo: "/logos/blogr.svg",
         logoBg: "#E54D2E",
         postedAt: "20h ago",
@@ -20,7 +22,7 @@ export const JOBS = [
         location: "United States",
     },
     {
-        id: "3",
+        id: randomUUID(),
         logo: "/logos/vector.svg",
         logoBg: "#2F4FCB",
         postedAt: "1d ago",
@@ -30,7 +32,7 @@ export const JOBS = [
         location: "Germany",
     },
     {
-        id: "4",
+        id: randomUUID(),
         logo: "/logos/officelite.svg",
         logoBg: "#3DBFF8",
         postedAt: "2d ago",
@@ -40,7 +42,7 @@ export const JOBS = [
         location: "Canada",
     },
     {
-        id: "5",
+        id: randomUUID(),
         logo: "/logos/pod.svg",
         logoBg: "#F16718",
         postedAt: "3d ago",
@@ -50,7 +52,7 @@ export const JOBS = [
         location: "Australia",
     },
     {
-        id: "6",
+        id: randomUUID(),
         logo: "/logos/maker.svg",
         logoBg: "#2146C7",
         postedAt: "4d ago",
@@ -60,7 +62,7 @@ export const JOBS = [
         location: "United States",
     },
     {
-        id: "7",
+        id: randomUUID(),
         logo: "/logos/coffee.svg",
         logoBg: "#A47C48",
         postedAt: "1w ago",
@@ -70,7 +72,7 @@ export const JOBS = [
         location: "Brazil",
     },
     {
-        id: "8",
+        id: randomUUID(),
         logo: "/logos/cloud.svg",
         logoBg: "#0EA5E9",
         postedAt: "1w ago",
@@ -80,7 +82,7 @@ export const JOBS = [
         location: "Spain",
     },
     {
-        id: "9",
+        id: randomUUID(),
         logo: "/logos/neo.svg",
         logoBg: "#901bcf",
         postedAt: "2w ago",
@@ -90,7 +92,7 @@ export const JOBS = [
         location: "Netherlands",
     },
     {
-        id: "10",
+        id: randomUUID(),
         logo: "/logos/green.svg",
         logoBg: "#16A34A",
         postedAt: "2w ago",
@@ -100,7 +102,7 @@ export const JOBS = [
         location: "Chile",
     },
     {
-        id: "11",
+        id: randomUUID(),
         logo: "/logos/byte.svg",
         logoBg: "#7C3AED",
         postedAt: "3w ago",
@@ -110,7 +112,7 @@ export const JOBS = [
         location: "Mexico",
     },
     {
-        id: "12",
+        id: randomUUID(),
         logo: "/logos/alpha.svg",
         logoBg: "#DC2626",
         postedAt: "3w ago",
@@ -120,7 +122,7 @@ export const JOBS = [
         location: "Argentina",
     },
     {
-        id: "13",
+        id: randomUUID(),
         logo: "/logos/zen.svg",
         logoBg: "#059669",
         postedAt: "1mo ago",
@@ -130,7 +132,7 @@ export const JOBS = [
         location: "Japan",
     },
     {
-        id: "14",
+        id: randomUUID(),
         logo: "/logos/rocket.svg",
         logoBg: "#F43F5E",
         postedAt: "1mo ago",
@@ -140,7 +142,7 @@ export const JOBS = [
         location: "United Kingdom",
     },
     {
-        id: "15",
+        id: randomUUID(),
         logo: "/logos/logic.svg",
         logoBg: "#ffcd64",
         postedAt: "1mo ago",
@@ -150,7 +152,7 @@ export const JOBS = [
         location: "United States",
     },
     {
-        id: "16",
+        id: randomUUID(),
         logo: "/logos/pixel.svg",
         logoBg: "#9333EA",
         postedAt: "2mo ago",
@@ -160,7 +162,7 @@ export const JOBS = [
         location: "France",
     },
     {
-        id: "17",
+        id: randomUUID(),
         logo: "/logos/core.svg",
         logoBg: "#273759",
         postedAt: "2mo ago",
@@ -170,7 +172,7 @@ export const JOBS = [
         location: "Germany",
     },
     {
-        id: "18",
+        id: randomUUID(),
         logo: "/logos/nimbus.svg",
         logoBg: "#38BDF8",
         postedAt: "2mo ago",
@@ -180,7 +182,7 @@ export const JOBS = [
         location: "India",
     },
     {
-        id: "19",
+        id: randomUUID(),
         logo: "/logos/forge.svg",
         logoBg: "#B91C1C",
         postedAt: "3mo ago",
@@ -190,7 +192,7 @@ export const JOBS = [
         location: "Israel",
     },
     {
-        id: "20",
+        id: randomUUID(),
         logo: "/logos/atlas.svg",
         logoBg: "#1E293B",
         postedAt: "3mo ago",
@@ -200,7 +202,7 @@ export const JOBS = [
         location: "Sweden",
     },
     {
-        id: "21",
+        id: randomUUID(),
         logo: "/logos/lumen.svg",
         logoBg: "#F59E0B",
         postedAt: "3mo ago",
@@ -210,7 +212,7 @@ export const JOBS = [
         location: "Italy",
     },
     {
-        id: "22",
+        id: randomUUID(),
         logo: "/logos/horizon.svg",
         logoBg: "#14B8A6",
         postedAt: "4mo ago",
@@ -220,7 +222,7 @@ export const JOBS = [
         location: "Portugal",
     },
     {
-        id: "23",
+        id: randomUUID(),
         logo: "/logos/delta.svg",
         logoBg: "#6366F1",
         postedAt: "4mo ago",
@@ -230,7 +232,7 @@ export const JOBS = [
         location: "Poland",
     },
     {
-        id: "24",
+        id: randomUUID(),
         logo: "/logos/spark.svg",
         logoBg: "#F97316",
         postedAt: "4mo ago",
@@ -240,7 +242,7 @@ export const JOBS = [
         location: "South Korea",
     },
     {
-        id: "25",
+        id: randomUUID(),
         logo: "/logos/quantum.svg",
         logoBg: "#0EA5E9",
         postedAt: "5mo ago",
@@ -250,7 +252,7 @@ export const JOBS = [
         location: "Singapore",
     },
     {
-        id: "26",
+        id: randomUUID(),
         logo: "/logos/bridge.svg",
         logoBg: "#4B5563",
         postedAt: "5mo ago",
@@ -260,7 +262,7 @@ export const JOBS = [
         location: "Switzerland",
     },
     {
-        id: "27",
+        id: randomUUID(),
         logo: "/logos/aurora.svg",
         logoBg: "#DB2777",
         postedAt: "6mo ago",
