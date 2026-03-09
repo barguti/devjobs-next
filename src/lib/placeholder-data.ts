@@ -1,8 +1,6 @@
-import { randomUUID } from "crypto";
-
 export const JOBS = [
     {
-        id: randomUUID(),
+        id: "fojtewdoyap",
         logo: "/logos/scoot.svg", // imágenes en public/logos/
         logoBg: "#E99210",
         postedAt: "5h ago",
@@ -12,7 +10,7 @@ export const JOBS = [
         location: "United Kingdom",
     },
     {
-        id: randomUUID(),
+        id: "boh2l0w757",
         logo: "/logos/blogr.svg",
         logoBg: "#E54D2E",
         postedAt: "20h ago",
@@ -22,7 +20,7 @@ export const JOBS = [
         location: "United States",
     },
     {
-        id: randomUUID(),
+        id: "q3f2vniai4o",
         logo: "/logos/vector.svg",
         logoBg: "#2F4FCB",
         postedAt: "1d ago",
@@ -32,7 +30,7 @@ export const JOBS = [
         location: "Germany",
     },
     {
-        id: randomUUID(),
+        id: "okosp9e71j",
         logo: "/logos/officelite.svg",
         logoBg: "#3DBFF8",
         postedAt: "2d ago",
@@ -42,7 +40,7 @@ export const JOBS = [
         location: "Canada",
     },
     {
-        id: randomUUID(),
+        id: 'p3z9ceugiaq',
         logo: "/logos/pod.svg",
         logoBg: "#F16718",
         postedAt: "3d ago",
@@ -52,7 +50,7 @@ export const JOBS = [
         location: "Australia",
     },
     {
-        id: randomUUID(),
+        id: 'e8z3r4bhnmg',
         logo: "/logos/maker.svg",
         logoBg: "#2146C7",
         postedAt: "4d ago",
@@ -62,7 +60,7 @@ export const JOBS = [
         location: "United States",
     },
     {
-        id: randomUUID(),
+        id: 'cqfdbrk7n0t',
         logo: "/logos/coffee.svg",
         logoBg: "#A47C48",
         postedAt: "1w ago",
@@ -72,7 +70,7 @@ export const JOBS = [
         location: "Brazil",
     },
     {
-        id: randomUUID(),
+        id: '8r8apolnsjg',
         logo: "/logos/cloud.svg",
         logoBg: "#0EA5E9",
         postedAt: "1w ago",
@@ -82,7 +80,7 @@ export const JOBS = [
         location: "Spain",
     },
     {
-        id: randomUUID(),
+        id: 'zv4gqt4iwze',
         logo: "/logos/neo.svg",
         logoBg: "#901bcf",
         postedAt: "2w ago",
@@ -92,7 +90,7 @@ export const JOBS = [
         location: "Netherlands",
     },
     {
-        id: randomUUID(),
+        id: 'rrylvb56mn',
         logo: "/logos/green.svg",
         logoBg: "#16A34A",
         postedAt: "2w ago",
@@ -102,7 +100,7 @@ export const JOBS = [
         location: "Chile",
     },
     {
-        id: randomUUID(),
+        id: 'hju88lceiud',
         logo: "/logos/byte.svg",
         logoBg: "#7C3AED",
         postedAt: "3w ago",
@@ -112,7 +110,7 @@ export const JOBS = [
         location: "Mexico",
     },
     {
-        id: randomUUID(),
+        id: 'uxe740qt2f',
         logo: "/logos/alpha.svg",
         logoBg: "#DC2626",
         postedAt: "3w ago",
@@ -122,7 +120,7 @@ export const JOBS = [
         location: "Argentina",
     },
     {
-        id: randomUUID(),
+        id: 'f19ssvofxk9',
         logo: "/logos/zen.svg",
         logoBg: "#059669",
         postedAt: "1mo ago",
@@ -132,7 +130,7 @@ export const JOBS = [
         location: "Japan",
     },
     {
-        id: randomUUID(),
+        id: '4f9vi4sgbzj',
         logo: "/logos/rocket.svg",
         logoBg: "#F43F5E",
         postedAt: "1mo ago",
@@ -142,7 +140,7 @@ export const JOBS = [
         location: "United Kingdom",
     },
     {
-        id: randomUUID(),
+        id: 'qa9r6pa7fa',
         logo: "/logos/logic.svg",
         logoBg: "#ffcd64",
         postedAt: "1mo ago",
@@ -152,7 +150,7 @@ export const JOBS = [
         location: "United States",
     },
     {
-        id: randomUUID(),
+        id: '64n5phj8rs7',
         logo: "/logos/pixel.svg",
         logoBg: "#9333EA",
         postedAt: "2mo ago",
@@ -162,7 +160,7 @@ export const JOBS = [
         location: "France",
     },
     {
-        id: randomUUID(),
+        id: 'ezj0u7qqb5q',
         logo: "/logos/core.svg",
         logoBg: "#273759",
         postedAt: "2mo ago",
@@ -172,7 +170,7 @@ export const JOBS = [
         location: "Germany",
     },
     {
-        id: randomUUID(),
+        id: 'mc5lkvmi52c',
         logo: "/logos/nimbus.svg",
         logoBg: "#38BDF8",
         postedAt: "2mo ago",
@@ -182,7 +180,7 @@ export const JOBS = [
         location: "India",
     },
     {
-        id: randomUUID(),
+        id: 'pbebikhedm',
         logo: "/logos/forge.svg",
         logoBg: "#B91C1C",
         postedAt: "3mo ago",
@@ -192,7 +190,7 @@ export const JOBS = [
         location: "Israel",
     },
     {
-        id: randomUUID(),
+        id: 'uko6bmyeuij',
         logo: "/logos/atlas.svg",
         logoBg: "#1E293B",
         postedAt: "3mo ago",
@@ -202,7 +200,7 @@ export const JOBS = [
         location: "Sweden",
     },
     {
-        id: randomUUID(),
+        id: '2lfc39pm565',
         logo: "/logos/lumen.svg",
         logoBg: "#F59E0B",
         postedAt: "3mo ago",
@@ -212,7 +210,7 @@ export const JOBS = [
         location: "Italy",
     },
     {
-        id: randomUUID(),
+        id:'plbo966cb9',
         logo: "/logos/horizon.svg",
         logoBg: "#14B8A6",
         postedAt: "4mo ago",
@@ -222,7 +220,7 @@ export const JOBS = [
         location: "Portugal",
     },
     {
-        id: randomUUID(),
+        id: 'hfisx8cl8yj',
         logo: "/logos/delta.svg",
         logoBg: "#6366F1",
         postedAt: "4mo ago",
@@ -232,7 +230,7 @@ export const JOBS = [
         location: "Poland",
     },
     {
-        id: randomUUID(),
+        id: 'j3o8c8f7iya',
         logo: "/logos/spark.svg",
         logoBg: "#F97316",
         postedAt: "4mo ago",
@@ -242,7 +240,7 @@ export const JOBS = [
         location: "South Korea",
     },
     {
-        id: randomUUID(),
+        id:'5r8riumop6o',
         logo: "/logos/quantum.svg",
         logoBg: "#0EA5E9",
         postedAt: "5mo ago",
@@ -252,7 +250,7 @@ export const JOBS = [
         location: "Singapore",
     },
     {
-        id: randomUUID(),
+        id: 'v5qd31vppl',
         logo: "/logos/bridge.svg",
         logoBg: "#4B5563",
         postedAt: "5mo ago",
@@ -262,7 +260,7 @@ export const JOBS = [
         location: "Switzerland",
     },
     {
-        id: randomUUID(),
+        id: 'isa45jjfs0q',
         logo: "/logos/aurora.svg",
         logoBg: "#DB2777",
         postedAt: "6mo ago",

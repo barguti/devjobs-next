@@ -1,45 +1,68 @@
-"use client"; // React 19: Necesario porque usaremos interactividad (formularios/estados)
+"use client";
+import { Search, MapPin } from "lucide-react";
 
-export default function SearchBar() {
+interface SearchBarProps {
+    setSearchTerm: (val: string) => void;
+    setLocationFilter: (val: string) => void;
+    setIsFullTimeOnly: (val: boolean) => void;
+}
+
+export default function SearchBar({
+    setSearchTerm,
+    setLocationFilter,
+    setIsFullTimeOnly,
+}: SearchBarProps) {
     return (
-        <div className="max-w-6xl mx-auto px-4 -mt-10 relative z-10">
-            <form className="bg-[#121721] rounded-lg h-20 flex items-center divide-x divide-[#2D333F] overflow-hidden">
-                {/* 1. Búsqueda por cargo */}
-                <div className="flex-1 flex items-center px-6 gap-4">
-                    <span className="text-brand-blue text-xl">🔍</span>
+        <div className="relative -mt-10 max-w-7xl mx-auto px-6">
+            <div className="bg-[#121721] rounded-xl p-4 flex flex-col md:flex-row items-center gap-4 border border-[#2D333F] shadow-2xl">
+                {/* 1. Filtro por Texto (Cargo o Empresa) */}
+                <div className="flex-1 flex items-center gap-3 w-full group">
+                    <Search
+                        className="text-blue-500 group-focus-within:scale-110 transition-transform"
+                        size={24}
+                    />
                     <input
                         type="text"
-                        placeholder="Filter by title, companies"
-                        className="bg-transparent border-none outline-none text-white w-full placeholder:text-[#9DAEC2]"
+                        placeholder="Filter by title, companies..."
+                        className="bg-transparent w-full text-white outline-none placeholder:text-[#5964E0]/50"
+                        onChange={(e) => setSearchTerm(e.target.value)}
                     />
                 </div>
 
-                {/* 2. Búsqueda por ubicación (Oculto en móvil) */}
-                <div className="hidden md:flex flex-1 items-center px-6 gap-4">
-                    <span className="text-brand-blue text-xl">📍</span>
+                {/* 2. Filtro por Ubicación */}
+                <div className="flex-1 flex items-center gap-3 w-full md:border-l border-[#2D333F] md:pl-4 group">
+                    <MapPin
+                        className="text-blue-500 group-focus-within:scale-110 transition-transform"
+                        size={24}
+                    />
                     <input
                         type="text"
-                        placeholder="Filter by location"
-                        className="bg-transparent border-none outline-none text-white w-full placeholder:text-[#9DAEC2]"
+                        placeholder="Filter by location..."
+                        className="bg-transparent w-full text-white outline-none placeholder:text-[#5964E0]/50"
+                        onChange={(e) => setLocationFilter(e.target.value)}
                     />
                 </div>
 
-                {/* 3. Checkbox y Botón */}
-                <div className="flex items-center px-6 gap-4">
-                    <div className="hidden lg:flex items-center gap-3">
+                {/* 3. Full Time Checkbox & Botón */}
+                <div className="flex items-center justify-between w-full md:w-auto gap-4 md:border-l border-[#2D333F] md:pl-4">
+                    <label className="flex items-center gap-3 cursor-pointer group">
                         <input
                             type="checkbox"
-                            className="w-5 h-5 accent-brand-blue"
+                            className="w-6 h-6 rounded border-[#2D333F] bg-[#19202D] accent-blue-500 cursor-pointer"
+                            onChange={(e) =>
+                                setIsFullTimeOnly(e.target.checked)
+                            }
                         />
-                        <span className="text-white font-bold whitespace-nowrap">
-                            Full Time Only
+                        <span className="text-white font-bold text-sm min-w-max">
+                            Full Time
                         </span>
-                    </div>
-                    <button className="bg-brand-blue hover:bg-brand-lightBlue text-white font-bold py-3 px-8 rounded-md transition-colors">
+                    </label>
+
+                    <button className="bg-blue-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-400 transition-all active:scale-95 shadow-lg shadow-blue-500/20">
                         Search
                     </button>
                 </div>
-            </form>
+            </div>
         </div>
     );
 }

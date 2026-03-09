@@ -1,9 +1,7 @@
 import { JOBS } from "@/src/lib/placeholder-data"; // Quitamos el /src/ del alias
 import { notFound } from "next/navigation";
 
-export default async function JobDetailPage({
-    params,
-}: {
+export default async function JobDetailPage({ params }: {
     params: Promise<{ id: string }>;
 }) {
     // 1. Esperamos los parámetros
