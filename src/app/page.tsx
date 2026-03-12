@@ -43,14 +43,14 @@ export default function HomePage() {
     };
 
     return (
-        <main className="min-h-screen bg-[#0B111D] pb-20 pt-20 rounded-lg">
+        <main className="min-h-screen bg-white dark:bg-[#0B111D] pt-20 rounded-lg">
             <SearchBar 
                 setSearchTerm={setSearchTerm} 
                 setLocationFilter={setLocationFilter} 
                 setIsFullTimeOnly={setIsFullTimeOnly} 
             />
 
-            <section className="max-w-7xl mx-auto px-6 mt-16">
+            <section className="bg-[#E2E8F0] dark:bg-[#0B111D] max-w-dvw min-h-screen mx-auto px-6 pt-16 pb-16 mt-16">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16">
                     {jobsToShow.map((job) => (
                         <JobCard key={job.id} job={job} />
