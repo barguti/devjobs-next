@@ -14,7 +14,7 @@ export default function SearchBar({
 }: SearchBarProps) {
     return (
         <div className="relative -mt-10 max-w-7xl mx-auto px-6">
-            <div className="bg-[#121721] rounded-xl p-4 flex flex-col md:flex-row items-center gap-4 border border-[#2D333F] shadow-2xl">
+            <div className="bg-white dark:bg-[#121721] rounded-xl p-4 flex flex-col md:flex-row items-center gap-4 border border-[#E2E8F0] dark:border-[#2D333F] shadow-2xl">
                 {/* 1. Filtro por Texto (Cargo o Empresa) */}
                 <div className="flex-1 flex items-center gap-3 w-full group">
                     <Search
@@ -24,7 +24,7 @@ export default function SearchBar({
                     <input
                         type="text"
                         placeholder="Filter by title, companies..."
-                        className="bg-transparent w-full text-white outline-none placeholder:text-[#5964E0]/50"
+                        className="bg-transparent w-full text-white outline-none placeholder:text-[#94A3B8]"
                         onChange={(e) => setSearchTerm(e.target.value)}
                     />
                 </div>
@@ -38,7 +38,7 @@ export default function SearchBar({
                     <input
                         type="text"
                         placeholder="Filter by location..."
-                        className="bg-transparent w-full text-white outline-none placeholder:text-[#5964E0]/50"
+                        className="bg-transparent w-full text-white outline-none placeholder:text-[#94A3B8]"
                         onChange={(e) => setLocationFilter(e.target.value)}
                     />
                 </div>

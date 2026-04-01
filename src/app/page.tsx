@@ -50,7 +50,7 @@ export default function HomePage() {
                 setIsFullTimeOnly={setIsFullTimeOnly} 
             />
 
-            <section className="bg-[#E2E8F0] dark:bg-[#0B111D] max-w-dvw min-h-screen mx-auto px-6 pt-16 pb-16 mt-16">
+            <section className="bg-[#F4F6F8] dark:bg-[#0B111D] max-w-dvw min-h-screen mx-auto px-6 pt-16 pb-16 mt-16">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16">
                     {jobsToShow.map((job) => (
                         <JobCard key={job.id} job={job} />
