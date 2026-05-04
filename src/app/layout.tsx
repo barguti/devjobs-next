@@ -19,7 +19,7 @@ export default function RootLayout({
     return (
         <html lang="en" suppressHydrationWarning>
             <body
-                className={`${kumbh.className} bg-lightGray dark:bg-[#090D17] text-darkGray dark:text-gray transition-colors duration-300`}
+                className={`${kumbh.className} bg-[#F4F6F8] dark:bg-[#090D17] text-[#19202D] dark:text-[#BAC9DA] transition-colors duration-300`}
             >
                 <ThemeProvider>
                     <Header />
